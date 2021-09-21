@@ -3,7 +3,7 @@ function writeCards (array, event){
     let i = "";
     for(i = 0; i < array.length; i++){
       let x = `Thank you, ${array[i]}, for the wonderful ${event} gift!`;
-       newArray.push(x)
+       newArray.push(x);
     }
     return newArray;
 }
@@ -11,7 +11,7 @@ function writeCards (array, event){
 function countDown (number){
     let a = number;
     while (a >= 0){
-         console.log(a)
+         console.log(a);
          a--;
     }
 }
